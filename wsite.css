@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+/* ----------------------HEADER AND NAV------------------------ */
+
+header {
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    background: black;
+}
+
+.name {
+    float: left;
+}
+
+.links {
+    float: right;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+    position: relative;
+}
+
+a:hover {
+    text-decoration: underline blue;
+}
+
+header,
+footer {
+    background: black;
+}
+
+/* --------------------------------MAIN PAGE------------------------------- */
+
+.container {
+    min-height: 100vh;
+    padding: 50px 25px 100px;
+    background: rgb(51, 51, 51);
+    width: 95%;
+    margin: auto;
+    border-radius: 2px;
+}
+
+.indexh2 {
+    margin-top: 25px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.quote {
+    padding: 75px;
+    line-height: 100px;
+    font-size: 55px;
+    text-align: center;
+
+}
+
+/* ----------------ABOUT.HTML CSS------------------------ */
+.abtcontainer {
+    padding: 50px 25px 100px;
+    background: rgb(51, 51, 51);
+    width: 95%;
+    margin: auto;
+
+}
+
+img {
+    height: 130px;
+    padding: 5px;
+}
+
+p {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 25px;
+}
+
+.apex {
+    float: right;
+}
+
+.robot {
+    float: left;
+}
+
+.family {
+    float: left;
+}
+
+.bc1 {
+    background: black;
+    padding: 10px 15px;
+    border-radius: 2px;
+
+}
+
+.bc2 {
+    background: black;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.bc3 {
+    background: black;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.abth2 {
+    padding: 5px;
+}
+
+/* -------------------------portfolio CSS ---------------------------------- */
+
+.workcontainer {
+    padding: 50px 25px 100px;
+    background: rgb(51, 51, 51);
+    width: 95%;
+}
+
+.hproject {
+    padding: 15px;
+    text-align: center;
+}
+
+.project {
+    padding: 5px 15px;
+}
+
+.imgproject {
+    float: left;
+}
+
+.firstp {
+    background: grey;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px white;
+}
+
+.secondp {
+    /* background: gray; */
+    padding: 10px;
+    border-radius: 4px;
+
+}
+
+.thirdp {
+    background: gray;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px white;
+}
+
+footer {
+    box-sizing: border-box;
+    position: fixed;
+    height: 50px;
+    padding: 15px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.social {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+footer .social {
+    height: 60px;
+    padding-bottom: 30px;
+}
+
+footer a {
+    margin-right: 65px;
+    text-decoration: none;
+}
